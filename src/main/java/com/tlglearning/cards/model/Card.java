@@ -48,6 +48,6 @@ public class Card implements Comparable<Card> {
 
   @Override
   public int compareTo(Card other) {
-    return 0;
+    return 0; //TODO: Replace with comparison based on suit and rank.
   }
 }
